@@ -57,11 +57,11 @@ two cells, in this case, 3A/A3 and 3B/B3, whose result will be entered into cell
 
 *or*
 
-*function
-*add
-*3A
-*3B
-*3C*
+  *function
+  add
+  3A
+  3B
+  3C*
 
 ### Let's take a closer look:
 
@@ -114,10 +114,10 @@ This prompt asks for a spreadsheet program file. Creating a spreadsheet program 
 very easy, since it's literally just putting a list of the commands you want into
 one file. For example, here's what an addition program file would look like:
 
-*3
-*enter 3A = 45
-*enter 3B = 60
-*function sum 3A 3B 3C*
+  *3
+  enter 3A = 45
+  enter 3B = 60
+  function sum 3A 3B 3C*
 
 And your file extension would be '.txt'. Let's examine this program:
 
