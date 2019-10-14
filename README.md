@@ -89,9 +89,9 @@ save *file_name*
 
 Save your spreadsheet as a text document. An example of a file name may be:
 
-*C:\\Users\\Documents\\spreadsheet1.txt*
+*C:\\\Users\\\Documents\\\spreadsheet1.txt*
 
-**NOTE: Be sure to make the backslashes face the correct way: \, not /.**
+**NOTE: Be sure to make the backslashes face the correct way: \\, not /.**
 
 Uploading a spreadsheet is just as easy as saving it. Simply swap the 
 *save* keyword for *upload*:
