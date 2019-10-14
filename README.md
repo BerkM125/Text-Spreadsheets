@@ -58,10 +58,10 @@ two cells, in this case, 3A/A3 and 3B/B3, whose result will be entered into cell
 *or*
 
 *function
-add
-3A
-3B
-3C*
+*add
+*3A
+*3B
+*3C*
 
 ### Let's take a closer look:
 
@@ -115,25 +115,25 @@ very easy, since it's literally just putting a list of the commands you want int
 one file. For example, here's what an addition program file would look like:
 
 *3
-enter 3A = 45
-enter 3B = 60
-function sum 3A 3B 3C*
+*enter 3A = 45
+*enter 3B = 60
+*function sum 3A 3B 3C*
 
 And your file extension would be '.txt'. Let's examine this program:
 
-*3* This number is the number of lines in your program, not including this number.
-*enter 3A = 45* We put 45 into cell 3A/A3.
-*enter 3B = 60* We also put 60 into cell 3B/B3.
-*function sum 3A 3B 3C* We put the sum of cells 3A and 3B into cell 3C.
+1. *3* This number is the number of lines in your program, not including this number.
+2. *enter 3A = 45* We put 45 into cell 3A/A3.
+3. *enter 3B = 60* We also put 60 into cell 3B/B3.
+4. *function sum 3A 3B 3C* We put the sum of cells 3A and 3B into cell 3C.
 
 As you can see, creating a program file is as simple as free input. So, to sum up 
 this section, here's a quick review:
 
--You will be prompted 'Mode (Program/Free Input)', where you will enter
+1. You will be prompted 'Mode (Program/Free Input)', where you will enter
 'F' for Free-Input, and 'P' to upload a program file. 
--If P is entered, then you will be prompted 'Program file: ', where you
+2. If P is entered, then you will be prompted 'Program file: ', where you
 will enter the name of the file containing the spreadsheet program.
--The program will then spit out an output in the form of spreadsheets.
+3. The program will then spit out an output in the form of spreadsheets.
 
 #Additional notes:
 
